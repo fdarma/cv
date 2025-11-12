@@ -12,54 +12,66 @@
     {
       "company": "Alex Solutions",
       "location": "Melbourne, Australia",
-      "role": "Software Developer (Full-Stack) - Core Platform",
-      "period": "Oct 2019 - Present",
-      "description": "As a developer in the Core Platform team, while working through Agile practices, my general responsibilities are to:",
-      "responsibilities": [
-        "Develop the core back-end codebase written in Java/Scala (Play/Spring)",
-        "Develop the core front-end codebase written in Javascript/Typescript (React/jQuery)",
-        "Extend/Decouple features through the development of microservices and microfrontends",
-        "Maintain developer pipelines and documentation",
-        "Maintain user-facing public APIs and guides",
-        "Standardize and uplift web-security and authentication throughout multiple projects"
-      ],
-      "accomplishmentsTitle": "Noteworthy accomplishments:",
-      "accomplishments": [
-        "Developed CLI's to support the migration of large databases between versions",
-        "Supervised a team of 3 in the development of a new front-end initiative",
-        "Lead a team of 10 during a support rotation to tackle client-facing issues",
-        "Implemented new unit testing practices resulting in the uplift of front-end code coverage",
-        "Onboarded new developers of varying seniority to the team",
-        "Maintained repositories to ensure code-coverage and agile practices were upheld",
-        "Held presentations on a variety of topics with the aim of reducing knowledge-silos",
-        "Uplifted data-intensive areas to improve memory-usage, tolerance, and speed of processes",
-        "Architected the solution to convert existing JWT standards from JWS to JWE"
+      "positions": [
+        {
+          "role": "Software Developer (Full-Stack) - Core Platform",
+          "period": "Oct 2019 - Present",
+          "description": "As a developer in the Core Platform team, while working through Agile practices, my general responsibilities are to:",
+          "responsibilities": [
+            "Develop the core back-end codebase written in Java/Scala (Play/Spring)",
+            "Develop the core front-end codebase written in Javascript/Typescript (React/jQuery)",
+            "Extend/Decouple features through the development of microservices and microfrontends",
+            "Maintain developer pipelines and documentation",
+            "Maintain user-facing public APIs and guides",
+            "Standardize and uplift web-security and authentication throughout multiple projects"
+          ],
+          "accomplishmentsTitle": "Noteworthy accomplishments:",
+          "accomplishments": [
+            "Developed CLI's to support the migration of large databases between versions",
+            "Supervised a team of 3 in the development of a new front-end initiative",
+            "Lead a team of 10 during a support rotation to tackle client-facing issues",
+            "Implemented new unit testing practices resulting in the uplift of front-end code coverage",
+            "Onboarded new developers of varying seniority to the team",
+            "Maintained repositories to ensure code-coverage and agile practices were upheld",
+            "Held presentations on a variety of topics with the aim of reducing knowledge-silos",
+            "Uplifted data-intensive areas to improve memory-usage, tolerance, and speed of processes",
+            "Architected the solution to convert existing JWT standards from JWS to JWE"
+          ]
+        }
       ]
     },
     {
       "company": "University of Melbourne - University Services",
       "location": "Melbourne, Australia",
-      "role": "Spatial Data Analyst Intern",
-      "period": "Jan 2019 - Apr 2019",
-      "description": "Utilized Tableau and python based data processing libraries to:",
-      "responsibilities": [
-        "Process and analyze spatial datasets for the University's TEFMA and Go8 dashboards",
-        "Visualize spatial datasets to create official University dashboards on vacant space",
-        "Create dashboards that showcase live University prominent building data"
+      "positions": [
+        {
+          "role": "Spatial Data Analyst Intern",
+          "period": "Jan 2019 - Apr 2019",
+          "description": "Utilized Tableau and python based data processing libraries to:",
+          "responsibilities": [
+            "Process and analyze spatial datasets for the University's TEFMA and Go8 dashboards",
+            "Visualize spatial datasets to create official University dashboards on vacant space",
+            "Create dashboards that showcase live University prominent building data"
+          ]
+        }
       ]
     },
     {
       "company": "Jakarta Smart City",
       "location": "Jakarta, Indonesia",
-      "role": "Data Analyst & Engineer Intern",
-      "period": "Nov 2018 - Dec 2018",
-      "description": "Utilized Tableau and python based data processing and visualization libraries to:",
-      "responsibilities": [
-        "Identify and rectify inaccuracies and logical errors within GOWES datasets",
-        "Analyze and visualize static and geospatial patterns arising from the use of GOWES",
-        "Analyze and visualize varying types of public complaints made to the government",
-        "Conduct data maintenance by observing database usage and analyzing data integrity",
-        "Extract subsections of government-owned data through the use of SQL queries"
+      "positions": [
+        {
+          "role": "Data Analyst & Engineer Intern",
+          "period": "Nov 2018 - Dec 2018",
+          "description": "Utilized Tableau and python based data processing and visualization libraries to:",
+          "responsibilities": [
+            "Identify and rectify inaccuracies and logical errors within GOWES datasets",
+            "Analyze and visualize static and geospatial patterns arising from the use of GOWES",
+            "Analyze and visualize varying types of public complaints made to the government",
+            "Conduct data maintenance by observing database usage and analyzing data integrity",
+            "Extract subsections of government-owned data through the use of SQL queries"
+          ]
+        }
       ]
     }
   ],

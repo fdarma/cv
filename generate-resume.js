@@ -196,52 +196,57 @@ function generateWorkExperience(work) {
                         <div style="display: flex; flex-direction: row">
                             <h2 class="Styles-sectionHeading">${job.company}</h2>
                             <div class="Styles-rightGreyText">${job.location}</div>
-                        </div>
-                        <div style="display: flex; flex-direction: row">
-                            <h3 class="Styles-roleText">${job.role}</h3>
-                            <div class="Styles-rightGreyText">${job.period}</div>
+                        </div>`;
+
+        // Iterate through all positions at this company
+        job.positions.forEach((position, index) => {
+            html += `
+                        <div style="display: flex; flex-direction: row; ${index > 0 ? 'margin-top: 10px;' : ''}">
+                            <h3 class="Styles-roleText">${position.role}</h3>
+                            <div class="Styles-rightGreyText">${position.period}</div>
                         </div>
                         <div style="height: 4px"></div>`;
 
-        if (job.description) {
-            html += `
-                        <div class="Styles-para">
-                            ${job.description}
-                        </div>`;
-        }
-
-        if (job.responsibilities && job.responsibilities.length > 0) {
-            html += `
-                        <ul style="margin-left: 25px">`;
-            job.responsibilities.forEach(resp => {
+            if (position.description) {
                 html += `
+                        <div class="Styles-para">
+                            ${position.description}
+                        </div>`;
+            }
+
+            if (position.responsibilities && position.responsibilities.length > 0) {
+                html += `
+                        <ul class="Styles-listBlock">`;
+                position.responsibilities.forEach(resp => {
+                    html += `
                             <li class="Styles-listItem">
                                 ${resp}
                             </li>`;
-            });
-            html += `
-                        </ul>`;
-        }
-
-        if (job.accomplishmentsTitle) {
-            html += `
-                        <div class="Styles-para">
-                            ${job.accomplishmentsTitle}
-                        </div>`;
-        }
-
-        if (job.accomplishments && job.accomplishments.length > 0) {
-            html += `
-                        <ul style="margin-left: 25px">`;
-            job.accomplishments.forEach(acc => {
+                });
                 html += `
+                        </ul>`;
+            }
+
+            if (position.accomplishmentsTitle) {
+                html += `
+                        <div class="Styles-para">
+                            ${position.accomplishmentsTitle}
+                        </div>`;
+            }
+
+            if (position.accomplishments && position.accomplishments.length > 0) {
+                html += `
+                        <ul class="Styles-listBlock">`;
+                position.accomplishments.forEach(acc => {
+                    html += `
                             <li class="Styles-listItem">
                                 ${acc}
                             </li>`;
-            });
-            html += `
+                });
+                html += `
                         </ul>`;
-        }
+            }
+        });
 
         html += `
                     </div>`;
@@ -268,9 +273,14 @@ function generateEducation(education) {
 // Generate skills HTML
 function generateSkills(skills) {
     return skills.map(skill => `
-                            <li class="Styles-listItem">
-                                <strong>${skill.category}:</strong> ${skill.items.join(', ')}
-                            </li>`).join('\n');
+                        <div style="margin-bottom: 10px;">
+                            <div style="font-weight: bold; font-size: 14px; margin-bottom: 4px;">
+                                ${skill.category}
+                            </div>
+                            <div class="Styles-para">
+                                ${skill.items.join(', ')}
+                            </div>
+                        </div>`).join('\n');
 }
 
 // Generate the complete HTML
@@ -323,9 +333,7 @@ ${generateEducation(data.education)}
                 </td>
                 <td style="width: 85%; vertical-align: top">
                     <div class="Styles-listBlock">
-                        <ul style="margin-left: 25px">
 ${generateSkills(data.skills)}
-                        </ul>
                     </div>
                 </td>
             </tr>
