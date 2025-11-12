@@ -1,0 +1,22 @@
+{
+  "name": "farhan-resume-generator",
+  "version": "1.0.0",
+  "description": "Generate HTML resume from structured JSON data",
+  "main": "generate-resume.js",
+  "scripts": {
+    "generate": "node generate-resume.js",
+    "generate-pdf": "node generate-pdf.js",
+    "build": "node generate-resume.js && node generate-pdf.js"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "html",
+    "generator"
+  ],
+  "author": "Farhan Darma",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.29.1"
+  }
+}
