@@ -5,11 +5,11 @@ const fs = require('fs');
 async function generatePDF() {
     console.log('🚀 Starting PDF generation...');
 
-    const htmlPath = path.join(__dirname, 'farhan-resume.html');
+    const htmlPath = path.join(__dirname, 'resume.html');
 
     // Check if HTML file exists
     if (!fs.existsSync(htmlPath)) {
-        console.error('❌ Error: farhan-resume.html not found!');
+        console.error('❌ Error: resume.html not found!');
         console.log('💡 Run "node generate-resume.js" first to generate the HTML file.');
         process.exit(1);
     }
@@ -46,7 +46,7 @@ async function generatePDF() {
         });
 
         // Generate PDF with high quality settings
-        const pdfPath = path.join(__dirname, 'farhan-resume.pdf');
+        const pdfPath = path.join(__dirname, 'resume.pdf');
         await page.pdf({
             path: pdfPath,
             format: 'A4',

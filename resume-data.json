@@ -90,7 +90,7 @@
     },
     {
       "category": "Web Frameworks",
-      "items": ["Play", "Spring", "React", "Redux", "jQuery"]
+      "items": ["NestJS", "Symfony", "Play", "Spring", "NextJS"]
     },
     {
       "category": "Databases",
@@ -98,19 +98,20 @@
     },
     {
       "category": "CI/CD",
-      "items": ["Docker", "Gitlab", "Jenkins", "SonarQube", "AWS", "Terraform"]
+      "items": ["Docker", "Terraform"]
     },
     {
-      "category": "Testing",
-      "items": ["Unit", "Integration", "E2E"]
-    },
-    {
-      "category": "Tools",
-      "items": ["IntelliJ", "Tableau", "Figma"]
+      "category": "CI/CD",
+      "items": ["Docker", "Gitlab", "Jenkins", "Terraform"]
     },
     {
       "category": "Others",
-      "items": ["TDD", "Database Modelling", "Software Modelling", "UI/UX Design"]
+      "items": [
+        "TDD",
+        "Database Modelling",
+        "Software Modelling",
+        "UI/UX Design"
+      ]
     }
   ],
   "referral": {

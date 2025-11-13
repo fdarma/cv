@@ -361,7 +361,7 @@ ${generateSkills(data.skills)}
 
 // Generate and save the HTML file
 const html = generateHTML(resumeData);
-const outputPath = path.join(__dirname, 'farhan-resume.html');
+const outputPath = path.join(__dirname, 'resume.html');
 fs.writeFileSync(outputPath, html, 'utf8');
 
 console.log(`✅ Resume generated successfully at: ${outputPath}`);
