@@ -10,32 +10,58 @@
   },
   "work": [
     {
+      "company": "Go1",
+      "location": "Melbourne, Australia",
+      "positions": [
+        {
+          "role": "Senior Software Developer",
+          "period": "June 2022 - Present",
+          "description": "As a senior software developer on the Content Core and Content Platform teams I worked on:",
+          "responsibilities": [
+            "Lead the design and development of migrating our Content Monolith to a decentralised Content System (Typescript, PHP), resulting in a 200% decrease in read latency and a decentralised system which enabled for better data governance, integrity, and ownership",
+            "Lead the design and development of the Content Event System (Azure, Typescript), a highly scalable event model which allowed for downstream services to filter and self-configure consumers to consume slim events for further processing",
+            "Lead the design and development of the V3 Go1 Content Public API (Typescript, PHP), a complete redesign of our Content Schema that focuses on a minimal and extensible model for our core data entity",
+            "Lead the design and development of the Go1 Bulk Uploader (ReactJS, Typescript), a browser application which enabled for stable long-running local jobs for content ingestion",
+            "Lead the design and development to unify how we determine content launch behaviour (Typescript, PHP), converging three seperate standards and asynchronous data ingestion schemes into one universal property",
+            "Lead the design and development to introduce Content Revisions (Typescript, PHP), a data model which enabled us to store, search and filter for content in multiple languages"
+          ]
+        },
+        {
+          "role": "Software Developer",
+          "period": "June 2021 - June 2022",
+          "description": "As a software developer on the Content Engineering and Content Creator teams I worked on:",
+          "responsibilities": [
+            "Lead the design and development of the V2 Go1 Content API (Typscript, PHP), Go1's first Public API which enabled for Content Creation",
+            "Lead the design and development of the Go1 Content Studio (ReactJS), a creator-focused embeddable dashboard within the core platform",
+            "Migrating content repositories from Gitlab to Github",
+            "Developing data pipelines within our data lakehouse system"
+          ]
+        }
+      ]
+    },
+    {
       "company": "Alex Solutions",
       "location": "Melbourne, Australia",
       "positions": [
         {
           "role": "Software Developer (Full-Stack) - Core Platform",
-          "period": "Oct 2019 - Present",
-          "description": "As a developer in the Core Platform team, while working through Agile practices, my general responsibilities are to:",
+          "period": "Oct 2019 - June 2021",
+          "description": "As a developer in the Core Platform team, I worked on my general responsibilities were to:",
           "responsibilities": [
-            "Develop the core back-end codebase written in Java/Scala (Play/Spring)",
-            "Develop the core front-end codebase written in Javascript/Typescript (React/jQuery)",
-            "Extend/Decouple features through the development of microservices and microfrontends",
+            "Maintain and develop the core backend (Java, Scala) and frontend (ReactJS, jQuery) codebases",
             "Maintain developer pipelines and documentation",
             "Maintain user-facing public APIs and guides",
-            "Standardize and uplift web-security and authentication throughout multiple projects"
+            "Onboard new developers of varying seniority to the team",
+            "Host knowledge sharing sessions and showcases on our existing infrastructure and codebase"
           ],
-          "accomplishmentsTitle": "Noteworthy accomplishments:",
+          "accomplishmentsTitle": "Accomplishments:",
           "accomplishments": [
-            "Developed CLI's to support the migration of large databases between versions",
-            "Supervised a team of 3 in the development of a new front-end initiative",
-            "Lead a team of 10 during a support rotation to tackle client-facing issues",
-            "Implemented new unit testing practices resulting in the uplift of front-end code coverage",
-            "Onboarded new developers of varying seniority to the team",
-            "Maintained repositories to ensure code-coverage and agile practices were upheld",
-            "Held presentations on a variety of topics with the aim of reducing knowledge-silos",
-            "Uplifted data-intensive areas to improve memory-usage, tolerance, and speed of processes",
-            "Architected the solution to convert existing JWT standards from JWS to JWE"
+            "Developed a configurable CLI tool to support in-memory database migrations to postgres",
+            "Developed in-house SAML authentication which enabled SSO for the core product",
+            "Implemented new unit testing practices which resulted in a major uplift of front-end code coverage",
+            "Rearchitected data-intensive features which greatly improved resource usage for our analytics",
+            "Lead the design of converting our existing JWT standards from JWS to JWE",
+            "Supervised a team of 10 during a support rotation to tackle client-facing issues"
           ]
         }
       ]
@@ -63,13 +89,12 @@
         {
           "role": "Data Analyst & Engineer Intern",
           "period": "Nov 2018 - Dec 2018",
-          "description": "Utilized Tableau and python based data processing and visualization libraries to:",
+          "description": "Utilized SQL, Tableau, and Python based data processing and visualization libraries to:",
           "responsibilities": [
             "Identify and rectify inaccuracies and logical errors within GOWES datasets",
             "Analyze and visualize static and geospatial patterns arising from the use of GOWES",
             "Analyze and visualize varying types of public complaints made to the government",
-            "Conduct data maintenance by observing database usage and analyzing data integrity",
-            "Extract subsections of government-owned data through the use of SQL queries"
+            "Conduct data maintenance by observing database usage and analyzing data integrity"
           ]
         }
       ]
@@ -94,15 +119,22 @@
     },
     {
       "category": "Databases",
-      "items": ["PostgreSQL", "Elasticsearch", "Neo4J"]
+      "items": ["PostgreSQL", "MongoDB", "MySQL", "Elasticsearch", "Neo4J"]
+    },
+    {
+      "category": "Cloud Service Providers",
+      "items": ["AWS", "Azure"]
     },
     {
       "category": "CI/CD",
-      "items": ["Docker", "Terraform"]
-    },
-    {
-      "category": "CI/CD",
-      "items": ["Docker", "Gitlab", "Jenkins", "Terraform"]
+      "items": [
+        "Docker",
+        "Gitlab",
+        "Jenkins",
+        "Kubernetes",
+        "Cloudflare",
+        "Terraform"
+      ]
     },
     {
       "category": "Others",
