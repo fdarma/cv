@@ -44,24 +44,23 @@
       "location": "Melbourne, Australia",
       "positions": [
         {
-          "role": "Software Developer (Full-Stack) - Core Platform",
-          "period": "Oct 2019 - June 2021",
-          "description": "As a developer in the Core Platform team, I worked on my general responsibilities were to:",
-          "responsibilities": [
-            "Maintain and develop the core backend (Java, Scala) and frontend (ReactJS, jQuery) codebases",
-            "Maintain developer pipelines and documentation",
-            "Maintain user-facing public APIs and guides",
-            "Onboard new developers of varying seniority to the team",
-            "Host knowledge sharing sessions and showcases on our existing infrastructure and codebase"
-          ],
-          "accomplishmentsTitle": "Accomplishments:",
+          "role": "Software Developer",
+          "period": "May 2020 - June 2021",
+          "description": "As a software developer in the Core Platform and Business Glossary teams, I worked on::",
           "accomplishments": [
             "Developed a configurable CLI tool to support in-memory database migrations to postgres",
-            "Developed in-house SAML authentication which enabled SSO for the core product",
-            "Implemented new unit testing practices which resulted in a major uplift of front-end code coverage",
-            "Rearchitected data-intensive features which greatly improved resource usage for our analytics",
             "Lead the design of converting our existing JWT standards from JWS to JWE",
             "Supervised a team of 10 during a support rotation to tackle client-facing issues"
+          ]
+        },
+        {
+          "role": "Junior Software Developer",
+          "period": "Oct 2019 - May 2020",
+          "description": "As a junior software developer in the Core Platform team, I worked on:",
+          "responsibilities": [
+            "Developed in-house SAML authentication which enabled SSO for the core product",
+            "Implemented new unit testing practices which resulted in a major uplift of front-end code coverage",
+            "Rearchitected data-intensive features which greatly improved resource usage for our analytics and search"
           ]
         }
       ]
