@@ -18,7 +18,7 @@
           "period": "June 2022 - Present",
           "description": "As a senior software developer on the Content Core and Content Platform teams I worked on:",
           "responsibilities": [
-            "Lead the design and development of migrating our Content Monolith to a decentralised Content System (Typescript, PHP), resulting in a 200% decrease in read latency and a decentralised system which enabled for better data governance, integrity, and ownership",
+            "Lead the design and development of migrating our Content Monolith to a decentralised Content System (Typescript, PHP), resulting in up to a 10x improvement in read latency and a decentralised system which enabled for better data governance, integrity, and ownership",
             "Lead the design and development of the Content Event System (Azure, Typescript), a highly scalable event model which allowed for downstream services to filter and self-configure consumers to consume slim events for further processing",
             "Lead the design and development of the V3 Go1 Content Public API (Typescript, PHP), a complete redesign of our Content Schema that focuses on a minimal and extensible model for our core data entity",
             "Lead the design and development of the Go1 Bulk Uploader (ReactJS, Typescript), a browser application which enabled for stable long-running local jobs for content ingestion",
