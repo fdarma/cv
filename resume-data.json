@@ -46,7 +46,7 @@
         {
           "role": "Software Developer",
           "period": "May 2020 - June 2021",
-          "description": "As a software developer in the Core Platform and Business Glossary teams, I worked on::",
+          "description": "As a software developer in the Core Platform and Business Glossary teams, I worked on:",
           "accomplishments": [
             "Developed a configurable CLI tool to support in-memory database migrations to postgres",
             "Lead the design of converting our existing JWT standards from JWS to JWE",
