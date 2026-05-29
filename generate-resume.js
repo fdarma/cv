@@ -359,9 +359,12 @@ ${generateSkills(data.skills)}
 `;
 }
 
-// Generate and save the HTML file
+// Generate and save the HTML files
 const html = generateHTML(resumeData);
-const outputPath = path.join(__dirname, 'resume.html');
-fs.writeFileSync(outputPath, html, 'utf8');
+const outputFiles = ['resume.html', 'index.html'];
 
-console.log(`✅ Resume generated successfully at: ${outputPath}`);
+outputFiles.forEach((fileName) => {
+    const outputPath = path.join(__dirname, fileName);
+    fs.writeFileSync(outputPath, html, 'utf8');
+    console.log(`✅ Resume generated successfully at: ${outputPath}`);
+});

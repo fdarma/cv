@@ -16,7 +16,7 @@ npm run build
 
 1. Edit `resume-data.json` with your resume content
 2. Run `npm run build` to generate both HTML and PDF outputs
-3. Open `resume.html` or `resume.pdf`
+3. Open `index.html`, `resume.html`, or `resume.pdf`
 
 ## Commands
 
@@ -30,6 +30,7 @@ npm run build         # Generate both HTML and PDF
 
 - `resume-data.json` - Source data (edit this)
 - `generate-resume.js` - HTML generator
+- `index.html` - Generated GitHub Pages entrypoint
 - `generate-pdf.js` - PDF generator
 - `resume.html` - Generated HTML output
 - `resume.pdf` - Generated PDF output
